@@ -1,6 +1,4 @@
-/* ---------------------------
-    Style Global
---------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,9 +10,7 @@ body {
     color: #333;
 }
 
-/* ---------------------------
-    Header Créatif
---------------------------- */
+
 .navbar {
     background: linear-gradient(135deg, #6C63FF, #FF6584);
     color: white;
@@ -75,9 +71,6 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* ---------------------------
-    Sections
---------------------------- */
 section {
     padding: 60px 20px;
     max-width: 1200px;
@@ -91,9 +84,6 @@ section h2 {
     color: #6C63FF;
 }
 
-/* ---------------------------
-    Projets
---------------------------- */
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -139,9 +129,6 @@ section h2 {
     color: #666;
 }
 
-/* ---------------------------
-    Footer
---------------------------- */
 footer {
     text-align: center;
     padding: 40px 20px;
